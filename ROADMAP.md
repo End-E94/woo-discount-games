@@ -5,7 +5,7 @@ Goal: WooCommerce plugin that gamifies coupon distribution. Mini games (spin the
 Each item is one small task that changes a single file. The roadmap bot ticks items off automatically.
 
 ## Core coupon engine
-- [ ] Create includes/class-wdgames-settings.php with the WooCommerce settings page for games, coupon type, amount, expiry, win chance, cooldown and product IDs
+- [x] Create includes/class-wdgames-settings.php with the WooCommerce settings page for games, coupon type, amount, expiry, win chance, cooldown and product IDs _(done by roadmap bot, 2026-11-14, built-in)_
 - [ ] Create includes/class-wdgames-coupon.php that creates single-use WooCommerce coupons for winners
 - [ ] Create includes/class-wdgames-rest.php with the server-side play endpoint and a per-visitor cooldown
 
