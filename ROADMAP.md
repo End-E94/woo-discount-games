@@ -10,7 +10,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Create includes/class-wdgames-rest.php with the server-side play endpoint and a per-visitor cooldown _(done by roadmap bot, 2026-11-14, built-in)_
 
 ## Front end
-- [ ] Create includes/class-wdgames-shortcode.php with the wdgames_game shortcode that loads its assets only when used
+- [x] Create includes/class-wdgames-shortcode.php with the wdgames_game shortcode that loads its assets only when used _(done by roadmap bot, 2026-11-14, built-in)_
 - [ ] Create assets/js/game.js that plays a game through the REST endpoint and shows the result accessibly
 - [ ] Create assets/css/game.css with game styles, a visible focus outline and a reduced-motion rule
 
