@@ -15,7 +15,7 @@ class WDGames_Plugin {
 	/**
 	 * Module file slugs. Each maps to includes/class-wdgames-{slug}.php and the class WDGames_{Slug}.
 	 */
-	const MODULES = array( 'settings', 'coupon', 'rest', 'shortcode' );
+	const MODULES = array( 'settings', 'coupon', 'rest', 'shortcode', 'privacy', 'links', 'block' );
 
 	/**
 	 * Boots the plugin.
