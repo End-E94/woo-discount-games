@@ -1,0 +1,54 @@
+.wdgames-game {
+	max-width: 22rem;
+	margin: 1.5rem auto;
+	padding: 1.5rem;
+	border: 2px solid currentcolor;
+	border-radius: 0.5rem;
+	text-align: center;
+}
+
+.wdgames-stage {
+	width: 9rem;
+	height: 9rem;
+	margin: 1rem auto;
+	background: conic-gradient(#2d6a4f 0 25%, #95d5b2 0 50%, #2d6a4f 0 75%, #95d5b2 0);
+	border-radius: 50%;
+	transition: transform 3s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.wdgames-game--box .wdgames-stage,
+.wdgames-game--scratch .wdgames-stage {
+	background: #8a6a3b;
+	border-radius: 0.5rem;
+}
+
+.wdgames-game--scratch .wdgames-stage {
+	background: repeating-linear-gradient(45deg, #bbb 0 8px, #ddd 8px 16px);
+}
+
+.wdgames-stage.is-played {
+	transform: rotate(var(--wdgames-turn, 720deg));
+}
+
+.wdgames-game--box .wdgames-stage.is-played,
+.wdgames-game--scratch .wdgames-stage.is-played {
+	transform: none;
+	opacity: 0.4;
+}
+
+.wdgames-play:focus-visible {
+	outline: 3px solid currentcolor;
+	outline-offset: 2px;
+}
+
+.wdgames-result {
+	min-height: 1.5em;
+	font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.wdgames-stage {
+		transition: none;
+	}
+}
+
