@@ -27,7 +27,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Update README.md with the plugin description, requirements, installation, shortcode usage and development instructions _(done by roadmap bot, 2026-11-15, built-in)_
 
 ## Cycle 2 - 2026-11-15
-- [ ] Create includes/class-wdgames-privacy.php that suggests privacy policy text for site owners
+- [x] Create includes/class-wdgames-privacy.php that suggests privacy policy text for site owners _(done by roadmap bot, 2026-11-15, built-in)_
 - [ ] Create includes/class-wdgames-links.php that adds a Settings link to the plugins list
 - [ ] Create blocks/game/block.json that registers the Discount Game block with a game attribute
 - [ ] Create blocks/game/render.php that renders the Discount Game block on the server
