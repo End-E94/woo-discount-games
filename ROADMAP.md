@@ -31,7 +31,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Create includes/class-wdgames-links.php that adds a Settings link to the plugins list _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Create blocks/game/block.json that registers the Discount Game block with a game attribute _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Create blocks/game/render.php that renders the Discount Game block on the server _(done by roadmap bot, 2026-11-15, built-in)_
-- [ ] Create blocks/game/index.js that adds the block editor interface for the Discount Game block
+- [x] Create blocks/game/index.js that adds the block editor interface for the Discount Game block _(done by roadmap bot, 2026-11-15, built-in)_
 - [ ] Create includes/class-wdgames-block.php that registers the block and its editor script
 - [ ] Update includes/class-wdgames-plugin.php to load the privacy, links and block modules
 - [ ] Add a forced-colors rule for the play button focus outline to assets/css/game.css
