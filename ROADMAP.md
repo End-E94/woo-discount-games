@@ -28,7 +28,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 
 ## Cycle 2 - 2026-11-15
 - [x] Create includes/class-wdgames-privacy.php that suggests privacy policy text for site owners _(done by roadmap bot, 2026-11-15, built-in)_
-- [ ] Create includes/class-wdgames-links.php that adds a Settings link to the plugins list
+- [x] Create includes/class-wdgames-links.php that adds a Settings link to the plugins list _(done by roadmap bot, 2026-11-15, built-in)_
 - [ ] Create blocks/game/block.json that registers the Discount Game block with a game attribute
 - [ ] Create blocks/game/render.php that renders the Discount Game block on the server
 - [ ] Create blocks/game/index.js that adds the block editor interface for the Discount Game block
