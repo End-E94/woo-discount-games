@@ -25,3 +25,13 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Create composer.json with dev dependencies wp-coding-standards/wpcs and phpcompatibility/phpcompatibility-wp and lint and fix scripts _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Create languages/README.md explaining how to translate the plugin _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Update README.md with the plugin description, requirements, installation, shortcode usage and development instructions _(done by roadmap bot, 2026-11-15, built-in)_
+
+## Cycle 2 - 2026-11-15
+- [ ] Create includes/class-wdgames-privacy.php that suggests privacy policy text for site owners
+- [ ] Create includes/class-wdgames-links.php that adds a Settings link to the plugins list
+- [ ] Create blocks/game/block.json that registers the Discount Game block with a game attribute
+- [ ] Create blocks/game/render.php that renders the Discount Game block on the server
+- [ ] Create blocks/game/index.js that adds the block editor interface for the Discount Game block
+- [ ] Create includes/class-wdgames-block.php that registers the block and its editor script
+- [ ] Update includes/class-wdgames-plugin.php to load the privacy, links and block modules
+- [ ] Add a forced-colors rule for the play button focus outline to assets/css/game.css
