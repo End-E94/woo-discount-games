@@ -7,7 +7,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 ## Core coupon engine
 - [x] Create includes/class-wdgames-settings.php with the WooCommerce settings page for games, coupon type, amount, expiry, win chance, cooldown and product IDs _(done by roadmap bot, 2026-11-14, built-in)_
 - [x] Create includes/class-wdgames-coupon.php that creates single-use WooCommerce coupons for winners _(done by roadmap bot, 2026-11-14, built-in)_
-- [ ] Create includes/class-wdgames-rest.php with the server-side play endpoint and a per-visitor cooldown
+- [x] Create includes/class-wdgames-rest.php with the server-side play endpoint and a per-visitor cooldown _(done by roadmap bot, 2026-11-14, built-in)_
 
 ## Front end
 - [ ] Create includes/class-wdgames-shortcode.php with the wdgames_game shortcode that loads its assets only when used
