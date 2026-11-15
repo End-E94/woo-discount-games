@@ -58,3 +58,8 @@
 		outline: 3px solid CanvasText;
 	}
 }
+
+.wdgames-play {
+	min-height: 44px;
+	min-width: 44px;
+}
