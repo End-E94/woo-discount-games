@@ -35,3 +35,8 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Create includes/class-wdgames-block.php that registers the block and its editor script _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Update includes/class-wdgames-plugin.php to load the privacy, links and block modules _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Add a forced-colors rule for the play button focus outline to assets/css/game.css _(done by roadmap bot, 2026-11-15, built-in)_
+
+## Cycle 3 - 2026-11-15
+- [ ] Add a minimum 44px touch target size for the play button to assets/css/game.css
+- [ ] Add print styles that hide the games to assets/css/game.css
+- [ ] Update README.md with the block and shortcode usage
