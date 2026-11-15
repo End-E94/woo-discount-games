@@ -23,5 +23,5 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Create readme.txt in the WordPress.org plugin readme format with description, installation, FAQ and changelog _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Create phpcs.xml.dist that uses the WordPress-Extra, WordPress-Docs and PHPCompatibilityWP rulesets with text domain woo-discount-games and prefix wdgames _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Create composer.json with dev dependencies wp-coding-standards/wpcs and phpcompatibility/phpcompatibility-wp and lint and fix scripts _(done by roadmap bot, 2026-11-15, built-in)_
-- [ ] Create languages/README.md explaining how to translate the plugin
+- [x] Create languages/README.md explaining how to translate the plugin _(done by roadmap bot, 2026-11-15, built-in)_
 - [ ] Update README.md with the plugin description, requirements, installation, shortcode usage and development instructions
