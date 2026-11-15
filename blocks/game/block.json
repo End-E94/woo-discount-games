@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wdgames/game",
+	"title": "Discount Game",
+	"category": "widgets",
+	"icon": "awards",
+	"description": "Shows a mini game that lets visitors win a coupon code.",
+	"textdomain": "woo-discount-games",
+	"attributes": {
+		"game": {
+			"type": "string",
+			"default": "wheel"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": true
+	},
+	"render": "file:./render.php"
+}
+
