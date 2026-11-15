@@ -17,7 +17,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 ## Bootstrap
 - [x] Create includes/class-wdgames-plugin.php that loads the modules once WooCommerce is active _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Create woo-discount-games.php with the WordPress plugin header, constants and the HPOS compatibility declaration _(done by roadmap bot, 2026-11-15, built-in)_
-- [ ] Create uninstall.php that deletes the plugin settings
+- [x] Create uninstall.php that deletes the plugin settings _(done by roadmap bot, 2026-11-15, built-in)_
 
 ## WordPress.org readiness and coding standards
 - [ ] Create readme.txt in the WordPress.org plugin readme format with description, installation, FAQ and changelog
