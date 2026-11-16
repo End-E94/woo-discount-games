@@ -157,3 +157,40 @@
 .high-contrast-mode:focus::after {
 	background-color: #333333;
 }
+
+.high-contrast-mode-toggle {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #333333;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.high-contrast-mode-toggle:hover {
+	background-color: #666666;
+}
+
+.high-contrast-mode-toggle:focus {
+	background-color: #333333;
+}
+
+.high-contrast-mode-toggle:checked::after {
+	content: "\2610";
+}
+
+.high-contrast-mode-toggle:not(:checked)::after {
+	content: "";
+}
+
+.high-contrast-mode-toggle:checked + .high-contrast-mode::after {
+	transform: translateX(24px);
+}
+
+.high-contrast-mode-toggle:not(:checked) + .high-contrast-mode::after {
+	transform: translateX(-24px);
+}
