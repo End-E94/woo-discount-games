@@ -56,7 +56,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Update README.md - Add compatibility with WordPress themes _(done by roadmap bot, 2026-11-16)_
 
 ## Cycle 6 - 2026-11-16
-- [ ] Update README.md: Accessibility guidelines for screen readers
+- [x] Update README.md: Accessibility guidelines for screen readers _(done by roadmap bot, 2026-11-16)_
 - [ ] Improve languages/README.md: RTL language support FAQ entry
 - [ ] Add high contrast mode toggle to assets/css/game.css
 - [ ] Update readme.txt: Compatibility with page builders
