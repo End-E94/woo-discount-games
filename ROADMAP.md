@@ -50,7 +50,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Update README.md - Add accessibility guidelines for screen readers _(done by roadmap bot, 2026-11-16)_
 - [x] Add assets/css/game.css - Force RTL support for play button _(done by roadmap bot, 2026-11-16)_
 - [ ] Update readme.txt - Add compatibility with page builders
-- [ ] Improve languages/README.md - Add FAQ entry for RTL languages
+- [x] Improve languages/README.md - Add FAQ entry for RTL languages _(done by roadmap bot, 2026-11-16)_
 - [ ] Update assets/css/game.css - Add reduced motion animation
 - [ ] Add assets/css/game.css - Provide high contrast mode toggle
 - [ ] Update README.md - Add compatibility with WordPress themes

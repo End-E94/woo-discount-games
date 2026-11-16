@@ -18,3 +18,12 @@ A: For a fully accessible experience, please use the following steps:
 1. Ensure your screen reader is set to read the plugin's UI elements, such as buttons and links.
 2. Use the plugin's settings to customize the discount amount and expiration date.
 3. For a more detailed explanation, please refer to the plugin's documentation or contact our support team.
+
+# Frequently Asked Questions
+
+Q: How can I use Discount Games for WooCommerce with RTL languages?
+A: For a fully accessible experience, please use the following steps:
+1. Ensure your screen reader is set to read the plugin's UI elements, such as buttons and links.
+2. Use the plugin's settings to customize the discount amount and expiration date.
+3. Note that RTL languages may require additional configuration to ensure proper display and formatting.
+4. For a more detailed explanation, please refer to the plugin's documentation or contact our support team.
