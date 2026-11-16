@@ -24,3 +24,9 @@ Add [wdgames_game game="wheel"] to a page. Available games are wheel, box and sc
 ## Development
 
 Run composer install, then composer lint to check the code against the WordPress coding standards and composer fix to fix what can be fixed automatically.
+
+## Block and shortcode
+
+The Discount Game block is available in the block editor under Widgets and has a game type setting.
+
+The same games can be placed with the shortcode: [wdgames_game game="box"] or [wdgames_game game="scratch"].
