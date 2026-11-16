@@ -38,3 +38,10 @@ This plugin aims to provide an accessible experience for users. To ensure this, 
 - Use ARIA attributes on interactive elements to provide a clear experience for screen readers.
 - Ensure sufficient color contrast between the game elements and the background.
 - Test the plugin with screen readers and other accessibility tools to identify and fix any issues.
+
+### Additional Accessibility Guidelines for Screen Readers
+
+- Use descriptive text for all images, including those used for game elements.
+- Ensure that all interactive elements, such as buttons and links, have a clear and consistent label.
+- Provide alternative text for any audio or video elements used in the plugin.
+- Use the `aria-label` attribute to provide a clear description of the plugin's functionality for screen readers.
