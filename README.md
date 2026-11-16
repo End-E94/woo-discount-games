@@ -62,3 +62,8 @@ To ensure compatibility with screen readers, please note the following guideline
 * Use ARIA attributes to define the role and state of interactive elements.
 * Ensure that all content is readable by screen readers, including captions, descriptions, and labels.
 * Test the plugin with popular screen readers such as JAWS, NVDA, and VoiceOver to ensure compatibility.
+
+* Ensure compatibility with WordPress theme's color scheme by using the `wpThemeColor` filter.
+* Use the `wpThemeHeaderImage` filter to ensure the header image is properly sized and positioned.
+* Be mindful of theme-specific CSS classes and IDs when using the plugin's shortcodes or widgets.
+* Test the plugin with different WordPress themes to ensure compatibility and adjust the plugin's code as needed.
