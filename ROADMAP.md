@@ -58,7 +58,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 ## Cycle 6 - 2026-11-16
 - [x] Update README.md: Accessibility guidelines for screen readers _(done by roadmap bot, 2026-11-16)_
 - [x] Improve languages/README.md: RTL language support FAQ entry _(done by roadmap bot, 2026-11-16)_
-- [ ] Add high contrast mode toggle to assets/css/game.css
+- [x] Add high contrast mode toggle to assets/css/game.css _(done by roadmap bot, 2026-11-16)_
 - [ ] Update readme.txt: Compatibility with page builders
 - [ ] Update assets/css/game.css: Reduced motion animation for RTL support
 - [ ] Improve languages/README.md: Accessibility guidelines for RTL languages
