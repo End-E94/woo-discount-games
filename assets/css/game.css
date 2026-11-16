@@ -75,3 +75,17 @@
 	outline-color: #fff;
 	outline-offset: 2px;
 }
+
+.wdgames-play[lang|="ar"] {
+	direction: rtl;
+	text-align: right;
+}
+
+.wdgames-play[lang|="ar"]::before {
+	content: attr(lang);
+	direction: rtl;
+	float: right;
+	font-size: 1.2em;
+	font-weight: 600;
+	margin-right: 0.5em;
+}
