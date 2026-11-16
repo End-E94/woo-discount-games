@@ -27,3 +27,12 @@ A: For a fully accessible experience, please use the following steps:
 2. Use the plugin's settings to customize the discount amount and expiration date.
 3. Note that RTL languages may require additional configuration to ensure proper display and formatting.
 4. For a more detailed explanation, please refer to the plugin's documentation or contact our support team.
+
+Q: How do I configure the plugin for RTL languages?
+A: To configure the plugin for RTL languages, you will need to set the `direction` parameter in the plugin's settings to `right-to-left`. You can do this by following these steps:
+1. Log in to your WooCommerce settings page.
+2. Navigate to the `Discount Games` settings.
+3. Scroll down to the `General` section.
+4. Click on the `Advanced` tab.
+5. In the `Direction` field, select `Right-to-Left` from the dropdown menu.
+6. Save your changes and the plugin will be configured for RTL languages.
