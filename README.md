@@ -52,3 +52,13 @@ This plugin is designed to work seamlessly with popular WordPress themes. Howeve
 
 * `wdgames_discount_games_theme` - This filter allows you to specify a custom theme for the plugin's UI.
 * `wdgames_discount_games_theme_class` - This filter enables you to add custom CSS classes to the plugin's theme.
+
+### Accessibility Guidelines for Screen Readers
+
+To ensure compatibility with screen readers, please note the following guidelines:
+
+* Use descriptive text for buttons, links, and other interactive elements.
+* Provide alternative text for images and other visual content.
+* Use ARIA attributes to define the role and state of interactive elements.
+* Ensure that all content is readable by screen readers, including captions, descriptions, and labels.
+* Test the plugin with popular screen readers such as JAWS, NVDA, and VoiceOver to ensure compatibility.
