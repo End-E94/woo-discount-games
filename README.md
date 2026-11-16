@@ -45,3 +45,10 @@ This plugin aims to provide an accessible experience for users. To ensure this, 
 - Ensure that all interactive elements, such as buttons and links, have a clear and consistent label.
 - Provide alternative text for any audio or video elements used in the plugin.
 - Use the `aria-label` attribute to provide a clear description of the plugin's functionality for screen readers.
+
+### Compatibility with WordPress Themes
+
+This plugin is designed to work seamlessly with popular WordPress themes. However, if you're experiencing any issues or want to customize the plugin's behavior, you can use the following filters to achieve this:
+
+* `wdgames_discount_games_theme` - This filter allows you to specify a custom theme for the plugin's UI.
+* `wdgames_discount_games_theme_class` - This filter enables you to add custom CSS classes to the plugin's theme.
