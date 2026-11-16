@@ -69,3 +69,9 @@
 		display: none;
 	}
 }
+
+.wdgames-play:focus-visible {
+	box-shadow: 0 0 0 3px currentcolor, 0 0 0 6px rgba(255, 255, 255, 0.2);
+	outline-color: #fff;
+	outline-offset: 2px;
+}

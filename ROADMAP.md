@@ -46,7 +46,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Update languages/README.md to include FAQ entry for screen readers _(done by roadmap bot, 2026-11-15)_
 
 ## Cycle 5 - 2026-11-16
-- [ ] Improve assets/css/game.css - Add focus outline color contrast
+- [x] Improve assets/css/game.css - Add focus outline color contrast _(done by roadmap bot, 2026-11-16)_
 - [ ] Update README.md - Add accessibility guidelines for screen readers
 - [ ] Add assets/css/game.css - Force RTL support for play button
 - [ ] Update readme.txt - Add compatibility with page builders
