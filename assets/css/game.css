@@ -194,3 +194,20 @@
 .high-contrast-mode-toggle:not(:checked) + .high-contrast-mode::after {
 	transform: translateX(-24px);
 }
+
+/* Reduced motion animation for RTL support */
+.high-contrast-mode-toggle:not(:checked) + .high-contrast-mode::after {
+	transition: transform 0.3s ease-in-out;
+}
+
+.high-contrast-mode-toggle:not(:checked) + .high-contrast-mode::after {
+	transform: translateX(-24px) transition-duration: 0.3s;
+}
+
+.high-contrast-mode-toggle:checked + .high-contrast-mode::after {
+	transition: transform 0.3s ease-in-out;
+}
+
+.high-contrast-mode-toggle:checked + .high-contrast-mode::after {
+	transform: translateX(24px) transition-duration: 0.3s;
+}
