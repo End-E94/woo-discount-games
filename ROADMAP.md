@@ -63,4 +63,4 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Update assets/css/game.css: Reduced motion animation for RTL support _(done by roadmap bot, 2026-11-16)_
 - [x] Improve languages/README.md: Accessibility guidelines for RTL languages _(done by roadmap bot, 2026-11-16)_
 - [ ] Add focus outline color contrast to assets/css/game.css
-- [ ] Update README.md: Compatibility with WordPress themes
+- [x] Update README.md: Compatibility with WordPress themes _(done by roadmap bot, 2026-11-16)_
