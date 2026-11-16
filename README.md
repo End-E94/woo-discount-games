@@ -30,3 +30,11 @@ Run composer install, then composer lint to check the code against the WordPress
 The Discount Game block is available in the block editor under Widgets and has a game type setting.
 
 The same games can be placed with the shortcode: [wdgames_game game="box"] or [wdgames_game game="scratch"].
+
+## Accessibility Guidelines
+
+This plugin aims to provide an accessible experience for users. To ensure this, follow these guidelines:
+
+- Use ARIA attributes on interactive elements to provide a clear experience for screen readers.
+- Ensure sufficient color contrast between the game elements and the background.
+- Test the plugin with screen readers and other accessibility tools to identify and fix any issues.
