@@ -43,4 +43,4 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 
 ## Cycle 4 - 2026-11-15
 - [x] Update README.md to include accessibility guidelines _(done by roadmap bot, 2026-11-15)_
-- [ ] Update languages/README.md to include FAQ entry for screen readers
+- [x] Update languages/README.md to include FAQ entry for screen readers _(done by roadmap bot, 2026-11-15)_

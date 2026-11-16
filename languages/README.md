@@ -10,3 +10,11 @@ To translate the plugin:
 
 Once the plugin is listed on WordPress.org it can also be translated at translate.wordpress.org.
 
+
+# Frequently Asked Questions
+
+Q: How can I use Discount Games for WooCommerce with screen readers?
+A: For a fully accessible experience, please use the following steps:
+1. Ensure your screen reader is set to read the plugin's UI elements, such as buttons and links.
+2. Use the plugin's settings to customize the discount amount and expiration date.
+3. For a more detailed explanation, please refer to the plugin's documentation or contact our support team.
