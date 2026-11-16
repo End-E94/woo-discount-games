@@ -114,3 +114,46 @@
 	-ms-animation: none !important;
 	-o-animation: none !important;
 }
+
+.high-contrast-mode {
+	background-color: #f0f0f0;
+	color: #333333;
+}
+
+.high-contrast-mode:focus {
+	background-color: #333333;
+	color: #f0f0f0;
+}
+
+.high-contrast-mode::before {
+	content: "\f1d7"; /* high contrast toggle icon */
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	pointer-events: none;
+}
+
+.high-contrast-mode::after {
+	content: "";
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-color: #333333;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: background-color 0.3s ease-in-out;
+}
+
+.high-contrast-mode:hover::after {
+	background-color: #666666;
+}
+
+.high-contrast-mode:focus::after {
+	background-color: #333333;
+}
