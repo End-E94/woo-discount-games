@@ -40,3 +40,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Add a minimum 44px touch target size for the play button to assets/css/game.css _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Add print styles that hide the games to assets/css/game.css _(done by roadmap bot, 2026-11-15, built-in)_
 - [x] Update README.md with the block and shortcode usage _(done by roadmap bot, 2026-11-15, built-in)_
+
+## Cycle 4 - 2026-11-15
+- [ ] Update README.md to include accessibility guidelines
+- [ ] Update languages/README.md to include FAQ entry for screen readers
