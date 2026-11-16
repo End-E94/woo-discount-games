@@ -54,3 +54,13 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Update assets/css/game.css - Add reduced motion animation _(done by roadmap bot, 2026-11-16)_
 - [x] Add assets/css/game.css - Provide high contrast mode toggle _(done by roadmap bot, 2026-11-16)_
 - [x] Update README.md - Add compatibility with WordPress themes _(done by roadmap bot, 2026-11-16)_
+
+## Cycle 6 - 2026-11-16
+- [ ] Update README.md: Accessibility guidelines for screen readers
+- [ ] Improve languages/README.md: RTL language support FAQ entry
+- [ ] Add high contrast mode toggle to assets/css/game.css
+- [ ] Update readme.txt: Compatibility with page builders
+- [ ] Update assets/css/game.css: Reduced motion animation for RTL support
+- [ ] Improve languages/README.md: Accessibility guidelines for RTL languages
+- [ ] Add focus outline color contrast to assets/css/game.css
+- [ ] Update README.md: Compatibility with WordPress themes
