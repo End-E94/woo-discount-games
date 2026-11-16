@@ -36,3 +36,13 @@ A: To configure the plugin for RTL languages, you will need to set the `directio
 4. Click on the `Advanced` tab.
 5. In the `Direction` field, select `Right-to-Left` from the dropdown menu.
 6. Save your changes and the plugin will be configured for RTL languages.
+
+# Accessibility Guidelines for RTL Languages
+
+To ensure the plugin is accessible for users of Right-to-Left (RTL) languages, follow these guidelines:
+
+*   Use the `dir` attribute on all HTML elements to specify the direction of the text. For example, use `dir="rtl"` on the `<body>` element.
+*   Use the `lang` attribute on all HTML elements to specify the language of the content. For example, use `lang="ar"` on the `<title>` element.
+*   Ensure that all images and other media are properly labeled with alt text and descriptions in the target language.
+*   Use the `aria-label` attribute on all interactive elements to provide a clear and consistent way to navigate the content.
+*   Test the plugin thoroughly with RTL languages to ensure that it functions as expected and does not contain any accessibility issues.
