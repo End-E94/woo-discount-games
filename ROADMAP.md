@@ -44,3 +44,13 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 ## Cycle 4 - 2026-11-15
 - [x] Update README.md to include accessibility guidelines _(done by roadmap bot, 2026-11-15)_
 - [x] Update languages/README.md to include FAQ entry for screen readers _(done by roadmap bot, 2026-11-15)_
+
+## Cycle 5 - 2026-11-16
+- [ ] Improve assets/css/game.css - Add focus outline color contrast
+- [ ] Update README.md - Add accessibility guidelines for screen readers
+- [ ] Add assets/css/game.css - Force RTL support for play button
+- [ ] Update readme.txt - Add compatibility with page builders
+- [ ] Improve languages/README.md - Add FAQ entry for RTL languages
+- [ ] Update assets/css/game.css - Add reduced motion animation
+- [ ] Add assets/css/game.css - Provide high contrast mode toggle
+- [ ] Update README.md - Add compatibility with WordPress themes
