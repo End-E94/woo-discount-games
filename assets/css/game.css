@@ -274,3 +274,23 @@
 		box-shadow: 0 0 0 2px var(--color-scheme) !important;
 	}
 }
+
+/* Add hover color to buttons */
+button:hover {
+	color: var(--color-scheme);
+}
+
+/* Add hover background color to buttons */
+button:hover {
+	background-color: var(--color-scheme);
+}
+
+/* Add hover border color to buttons */
+button:hover {
+	border-color: var(--color-scheme);
+}
+
+/* Add hover box shadow to buttons */
+button:hover {
+	box-shadow: 0 0 0 2px var(--color-scheme) !important;
+}
