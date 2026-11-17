@@ -67,7 +67,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 
 ## Cycle 7 - 2026-11-16
 - [x] Add focus outline color to assets/css/game.css _(done by roadmap bot, 2026-11-16)_
-- [ ] Update assets/css/game.css: High contrast mode toggle for colorblind users
+- [x] Update assets/css/game.css: High contrast mode toggle for colorblind users _(done by roadmap bot, 2026-11-16)_
 - [ ] Update languages/README.md: Reduced motion animation for RTL support
 - [ ] Improve assets/css/game.css: Color contrast for button hover
 - [ ] Add accessibility notes to assets/css/game.css
