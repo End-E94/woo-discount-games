@@ -64,3 +64,10 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Improve languages/README.md: Accessibility guidelines for RTL languages _(done by roadmap bot, 2026-11-16)_
 - [x] Add focus outline color contrast to assets/css/game.css _(done by roadmap bot, 2026-11-16)_
 - [x] Update README.md: Compatibility with WordPress themes _(done by roadmap bot, 2026-11-16)_
+
+## Cycle 7 - 2026-11-16
+- [ ] Add focus outline color to assets/css/game.css
+- [ ] Update assets/css/game.css: High contrast mode toggle for colorblind users
+- [ ] Update languages/README.md: Reduced motion animation for RTL support
+- [ ] Improve assets/css/game.css: Color contrast for button hover
+- [ ] Add accessibility notes to assets/css/game.css
