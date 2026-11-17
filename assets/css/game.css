@@ -226,3 +226,18 @@
 		box-shadow: 0 0 0 2px #000, 0 0 0 4px rgba(0, 0, 0, 0.2);
 	}
 }
+
+/* Add focus outline color contrast */
+::focus {
+	outline: 2px solid #000 !important;
+	outline-offset: 2px !important;
+	box-shadow: 0 0 0 2px #000 !important;
+	transition: box-shadow 0.3s ease-in-out !important;
+}
+
+/* Respect prefers-reduced-motion */
+@supports (transition-colors) and not (prefers-reduced-motion) {
+	::focus {
+		box-shadow: 0 0 0 2px #000, 0 0 0 4px rgba(0, 0, 0, 0.2) !important;
+	}
+}
