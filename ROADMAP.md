@@ -77,6 +77,6 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Add wdgames_ prefix to assets/css/game.css _(done by roadmap bot, 2026-11-17)_
 - [x] Update README.md: Compatibility with page builders _(done by roadmap bot, 2026-11-17)_
 - [x] Improve assets/css/game.css: Reduced motion animation for RTL support _(done by roadmap bot, 2026-11-17)_
-- [ ] Update languages/README.md: RTL language support for reduced motion
+- [x] Update languages/README.md: RTL language support for reduced motion _(done by roadmap bot, 2026-11-17)_
 - [ ] Improve languages/README.md: Add accessibility guidelines for RTL languages
 - [ ] Update readme.txt: Compatibility with WordPress themes
