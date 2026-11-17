@@ -241,3 +241,36 @@
 		box-shadow: 0 0 0 2px #000, 0 0 0 4px rgba(0, 0, 0, 0.2) !important;
 	}
 }
+
+/* High contrast mode toggle */
+:root {
+	--high-contrast-mode: off;
+}
+
+.high-contrast-mode {
+	--high-contrast-mode: on;
+}
+
+/* Toggle high contrast mode */
+.high-contrast-mode ~ * {
+	--color-scheme: dark;
+}
+
+.high-contrast-mode ~ *:not([data-high-contrast-mode]) {
+	--color-scheme: light;
+}
+
+/* Update focus outline color based on high contrast mode */
+::focus {
+	outline: 2px solid var(--color-scheme) !important;
+	outline-offset: 2px !important;
+	box-shadow: 0 0 0 2px var(--color-scheme) !important;
+	transition: box-shadow 0.3s ease-in-out !important;
+}
+
+/* Respect prefers-reduced-motion */
+@supports (transition-colors) and not (prefers-reduced-motion) {
+	::focus {
+		box-shadow: 0 0 0 2px var(--color-scheme) !important;
+	}
+}
