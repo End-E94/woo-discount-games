@@ -211,3 +211,18 @@
 .high-contrast-mode-toggle:checked + .high-contrast-mode::after {
 	transform: translateX(24px) transition-duration: 0.3s;
 }
+
+/* Add focus outline color contrast */
+::focus {
+	outline: 2px solid #000;
+	outline-offset: 2px;
+	box-shadow: 0 0 0 2px #000;
+	transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Respect prefers-reduced-motion */
+@supports (transition-colors) and not (prefers-reduced-motion) {
+	::focus {
+		box-shadow: 0 0 0 2px #000, 0 0 0 4px rgba(0, 0, 0, 0.2);
+	}
+}
