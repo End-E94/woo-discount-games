@@ -358,3 +358,17 @@ button:hover {
 		box-shadow: 0 0 0 2px var(--color-scheme) !important;
 	}
 }
+
+/* Reduced motion animation for RTL support */
+.rtl > *:not(:last-child) {
+	animation: rtl-motion 0.2s ease-in-out;
+}
+
+@keyframes rtl-motion {
+	0% {
+		box-shadow: 0 0 0 0 var(--color-scheme);
+	}
+	100% {
+		box-shadow: 0 0 0 2px var(--color-scheme) !important;
+	}
+}
