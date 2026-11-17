@@ -67,3 +67,7 @@ To ensure compatibility with screen readers, please note the following guideline
 * Use the `wpThemeHeaderImage` filter to ensure the header image is properly sized and positioned.
 * Be mindful of theme-specific CSS classes and IDs when using the plugin's shortcodes or widgets.
 * Test the plugin with different WordPress themes to ensure compatibility and adjust the plugin's code as needed.
+
+* Ensure compatibility with page builders by using the `wpBuilderElement` filter to target specific elements and attributes.
+* Be aware of page builder-specific classes and attributes when using the plugin's shortcodes or widgets.
+* Test the plugin with popular page builders such as Elementor, Beaver Builder, and Divi Builder to ensure compatibility and adjust the plugin's code as needed.
