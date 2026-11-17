@@ -319,3 +319,42 @@ button:hover {
 		box-shadow: 0 0 0 2px var(--color-scheme) !important;
 	}
 }
+
+/* Add focus outline to elements */
+* {
+	outline: 2px solid var(--color-scheme);
+	outline-offset: 0.25em;
+	outline-style: solid;
+	outline-width: 2px;
+}
+
+/* Respect prefers-reduced-motion for animations */
+@media (prefers-reduced-motion: reduce) {
+	/* Add animation for focus */
+	::focus {
+		animation: focus 0.2s ease-in-out;
+	}
+}
+
+@keyframes focus {
+	0% {
+		box-shadow: 0 0 0 0 var(--color-scheme);
+	}
+	100% {
+		box-shadow: 0 0 0 2px var(--color-scheme) !important;
+	}
+}
+
+/* Add wdgames_ prefix to focus styles */
+.wdgames_::focus {
+	animation: wdgames_focus 0.2s ease-in-out;
+}
+
+@keyframes wdgames_focus {
+	0% {
+		box-shadow: 0 0 0 0 var(--color-scheme);
+	}
+	100% {
+		box-shadow: 0 0 0 2px var(--color-scheme) !important;
+	}
+}
