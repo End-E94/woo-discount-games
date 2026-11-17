@@ -71,3 +71,12 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Update languages/README.md: Reduced motion animation for RTL support _(done by roadmap bot, 2026-11-17)_
 - [x] Improve assets/css/game.css: Color contrast for button hover _(done by roadmap bot, 2026-11-17)_
 - [x] Add accessibility notes to assets/css/game.css _(done by roadmap bot, 2026-11-17)_
+
+## Cycle 8 - 2026-11-17
+- [ ] Improve languages/README.md: Add accessibility guidelines for screen readers
+- [ ] Add wdgames_ prefix to assets/css/game.css
+- [ ] Update README.md: Compatibility with page builders
+- [ ] Improve assets/css/game.css: Reduced motion animation for RTL support
+- [ ] Update languages/README.md: RTL language support for reduced motion
+- [ ] Improve languages/README.md: Add accessibility guidelines for RTL languages
+- [ ] Update readme.txt: Compatibility with WordPress themes
