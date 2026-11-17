@@ -70,4 +70,4 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Update assets/css/game.css: High contrast mode toggle for colorblind users _(done by roadmap bot, 2026-11-16)_
 - [x] Update languages/README.md: Reduced motion animation for RTL support _(done by roadmap bot, 2026-11-17)_
 - [x] Improve assets/css/game.css: Color contrast for button hover _(done by roadmap bot, 2026-11-17)_
-- [ ] Add accessibility notes to assets/css/game.css
+- [x] Add accessibility notes to assets/css/game.css _(done by roadmap bot, 2026-11-17)_
