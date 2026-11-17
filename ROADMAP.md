@@ -73,7 +73,7 @@ Each item is one small task that changes a single file. The roadmap bot ticks it
 - [x] Add accessibility notes to assets/css/game.css _(done by roadmap bot, 2026-11-17)_
 
 ## Cycle 8 - 2026-11-17
-- [ ] Improve languages/README.md: Add accessibility guidelines for screen readers
+- [x] Improve languages/README.md: Add accessibility guidelines for screen readers _(done by roadmap bot, 2026-11-17)_
 - [ ] Add wdgames_ prefix to assets/css/game.css
 - [ ] Update README.md: Compatibility with page builders
 - [ ] Improve assets/css/game.css: Reduced motion animation for RTL support

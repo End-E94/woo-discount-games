@@ -48,3 +48,8 @@ To ensure the plugin is accessible for users of Right-to-Left (RTL) languages, f
 *   Test the plugin thoroughly with RTL languages to ensure that it functions as expected and does not contain any accessibility issues.
 
 *   For RTL languages, use the `dir` attribute on the `<body>` element to specify the direction of the content. For example, use `dir="rtl"` on the `<body>` element.
+
+*   Ensure that all images have an alt attribute and provide a description in the target language.
+*   Use the `aria-label` attribute on all interactive elements to provide a clear and consistent way to navigate the content.
+*   Test the plugin thoroughly with screen readers to ensure that it functions as expected and does not contain any accessibility issues.
+*   For screen readers, ensure that all text elements have a clear and consistent heading structure, using the `h1`, `h2`, `h3`, etc. elements.
